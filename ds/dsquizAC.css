@@ -1,0 +1,92 @@
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Styles pour le header */
+header {
+    background-image: url('imagee.jpg');
+    background-size: cover; /* Ajuste la taille de l'image pour couvrir tout le header */
+    background-position: center; /* Centre l'image dans le header */
+    backdrop-filter: blur(10px)
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    font-size: 24px;
+    text-transform: uppercase;
+}
+
+/* Styles pour le container principal */
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+    border: none;
+    width: 1000px;
+    height: 450px;
+    backdrop-filter: blur(5px); /* Flou sur l'arrière-plan */
+}
+
+.container h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.container p {
+    font-size: 18px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+    margin:50px;
+}
+
+.container button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.container button:hover {
+    background-color: #0056b3;
+}
+
+/* Styles pour le footer */
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    font-size: 14px;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
+
+/* Animation pour le bouton Commencer */
+@keyframes pulse {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.1);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+
+.container button {
+    animation: pulse 2s infinite;
+}
+section{
+    background-image: url('IMG1.jpg'); /* Remplacez 'background.jpg' par le chemin de votre image */
+    backdrop-filter: blur(10px); /* Flou sur l'arrière-plan */
+}
+

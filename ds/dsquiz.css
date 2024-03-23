@@ -1,0 +1,70 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f7f7f7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-image: url('IMG1.jpg'); /* Remplacez 'background.jpg' par le chemin de votre image */
+    backdrop-filter: blur(10px); /* Flou sur l'arrière-plan */
+}
+
+.container {
+    width: 80%;
+    max-width: 800px;
+    text-align: center;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    opacity: 1;
+    transform: scale(1);
+    transition: opacity 0.3s ease, transform 0.3s ease;
+    background-image: url('imagee.jpg');
+}
+
+p{
+    color: #333;
+    margin-bottom: 20px;
+}
+
+h1 {
+    color: #333;
+    margin-bottom: 20px;
+}
+
+button {
+    padding: 10px 20px;
+    margin-top: 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    /*transition: background-color 0.3s ease;*/
+    transition: background-color 0.3s ease, transform 0.2s ease; /* Ajout de transition pour le bouton */
+}
+
+button:hover {
+    background-color: #0056b3;
+    transform: scale(1.2); /* Effet de zoom au survol */
+}
+
+.options button {
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.feedback {
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+.progress {
+    margin-top: 20px;
+    color: #888;
+}
+
+
